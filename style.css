@@ -1,0 +1,484 @@
+/* card */
+.card{
+position: relative;
+width: 703px;
+height: 470px;
+
+background: #FFFFFF;
+}
+
+/* card-buttom */
+.card-buttom{
+position: absolute;
+width: 703px;
+height: 470px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+/* left-card */
+.left-card{
+position: absolute;
+width: 312px;
+height: 470px;
+left: 0px;
+top: 0px;
+}
+
+
+/* left-card-background */
+.left-card-background{
+position: absolute;
+width: 312px;
+height: 470px;
+left: 0px;
+top: 0px;
+
+background: #7857FF;
+border-radius: 15px;
+}
+
+/* circle-title */
+.circle-title{
+position: absolute;
+width: 120px;
+height: 27px;
+left: 95px;
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #C8C7FF;
+}
+
+
+/* cricle-middle-text */
+.cricle-middle-text{
+position: absolute;
+width: 82px;
+height: 36px;
+left: 114px;
+top: 286px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+
+/* circle-text */
+.corcle-text{
+position: absolute;
+width: 264px;
+height: 66px;
+left: 23px;
+top: 345px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #C8C7FF;
+}
+
+
+/* Circle */
+.Circle{
+position: absolute;
+width: 175px;
+height: 175px;
+left: 69px;
+top: 94px;
+}
+
+
+/* circle-background */
+.circle-background{
+position: absolute;
+width: 175px;
+height: 175px;
+left: 69px;
+top: 94px;
+
+background: linear-gradient(180deg, #4E21CA 0%, rgba(78, 33, 202, 0) 100%), #2421CA;
+}
+
+/* get-average-score */
+.get-average-score{
+position: absolute;
+width: 82.89px;
+height: 80.26px;
+left: 115px;
+top: 127px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 65px;
+line-height: 79px;
+
+color: #FFFFFF;
+}
+
+
+/* all-average-score */
+.all-average-score{
+position: absolute;
+width: 57px;
+height: 20px;
+left: 127px;
+top: 207px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #C8C7FF;
+}
+
+
+/* right-card */
+.right-card{
+position: absolute;
+width: 328px;
+height: 402px;
+left: 344px;
+top: 27px;
+}
+
+
+/* right-title */
+.right-title{
+position: absolute;
+width: 106px;
+height: 31px;
+left: 344px;
+top: 27px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;
+}
+
+
+/* button */
+.button{
+position: absolute;
+width: 328px;
+height: 56px;
+left: 344px;
+top: 373px;
+}
+
+
+/* button-background */
+.button-background{
+position: absolute;
+width: 328px;
+height: 56px;
+left: 344px;
+top: 373px;
+
+background: #303B5A;
+border-radius: 50px;
+}
+
+/* Countinute */
+.Countinute{
+position: absolute;
+width: 117px;
+height: 27px;
+left: 449px;
+top: 387px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
+/* visual */
+.visual{
+position: absolute;
+width: 328px;
+height: 56px;
+left: 344px;
+top: 281px;
+}
+
+
+/* visual-background */
+.visual-background{
+position: absolute;
+width: 328px;
+height: 56px;
+left: 344px;
+top: 281px;
+
+background: rgba(0, 189, 145, 0.1);
+border-radius: 5px;
+}
+
+/* get-all-score */
+.get-all-score{
+position: absolute;
+width: 59px;
+height: 27px;
+left: 598px;
+top: 295px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: rgba(48, 59, 90, 0.5);
+}
+
+
+/* get-true-score */
+.get-true-score{
+position: absolute;
+width: 29px;
+height: 27px;
+left: 569px;
+top: 295px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #303B5A;
+}
+
+
+/* text-visual */
+.text-visual{
+position: absolute;
+width: 64px;
+height: 27px;
+left: 388px;
+top: 295px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #00BD91;
+}
+
+
+/* image-visual */
+.image-visual{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 357px;
+top: 299px;
+}
+
+
+/* verbal */
+.verbal{
+position: absolute;
+width: 328px;
+height: 56px;
+left: 344px;
+top: 217px;
+}
+
+
+/* verbal-background */
+.verbal-background{
+position: absolute;
+width: 328px;
+height: 56px;
+left: 344px;
+top: 217px;
+
+background: rgba(17, 37, 212, 0.1);
+border-radius: 5px;
+}
+
+/* get-all-score */
+.get-all-score{
+position: absolute;
+width: 59px;
+height: 27px;
+left: 598px;
+top: 235px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: rgba(48, 59, 90, 0.5);
+}
+
+
+
+/* text-verbal */
+.text-verbal{
+position: absolute;
+width: 68px;
+height: 27px;
+left: 388px;
+top: 235px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #1125D4;
+}
+
+
+/* image-verbal */
+.image-verbal{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 357px;
+top: 239px;
+}
+
+
+/* memory */
+.memory{
+position: absolute;
+width: 328px;
+height: 57px;
+left: 344px;
+top: 150px;
+}
+
+
+/* memory-background */
+.memory-background{
+position: absolute;
+width: 328px;
+height: 57px;
+left: 344px;
+top: 150px;
+
+background: rgba(255, 176, 31, 0.1);
+border-radius: 5px;
+}
+
+/* text-memory */
+.text-memory{
+position: absolute;
+width: 87px;
+height: 27px;
+left: 388px;
+top: 165px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #FFB01F;
+}
+
+
+/* image-memory */
+.image-memory{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 357px;
+top: 172px;
+}
+
+
+/* reaction */
+.reaction{
+position: absolute;
+width: 328px;
+height: 54px;
+left: 344px;
+top: 88px;
+}
+
+
+/* reaction-background */
+.reaction-background{
+position: absolute;
+width: 328px;
+height: 54px;
+left: 344px;
+top: 88px;
+
+background: rgba(255, 87, 87, 0.1);
+border-radius: 5px;
+}
+
+/* text-reaction */
+.text-reaction{
+position: absolute;
+width: 93px;
+height: 27px;
+left: 388px;
+top: 102px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+color: #FF5757;
+}
+
+/* image-reaction */
+.image-reaction{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 357px;
+top: 105px;
+}

@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Results summary component</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
   <div class="card">
-    <div class="card-buttom"></div>
-    <div class="right-card">
+    <section class="left-card">
+      <div class="circle">
+        <p class="get-average-score">76</p>
+        <p class="all-average-score">of 100</p>
+      </div>
+      <p class="circle-text">You scored higher than 65% of the people who have taken these tests.</p>
+      <p class="cricle-middle-text">Great</p>
+      <p class="circle-title">Your Result</p>
+    </section>
+    <section class="right-card">
+      <h2>Summary</h2>
       <div class="reaction">
-        <div class="get-all-score"> / 100</div>
-        <div class="image-reaction"></div>
-        <div class="text-reaction">Reaction</div>
-        <div class="reaction-background"></div>
-        <div class="get-true-score">80</div>
+        <img src="./assets/images/icon-reaction.svg" class="image-reaction"></img>
+        <p class="text-reaction">Reaction</p>
+        <p class="get-true-score">80</p>
+        <p class="get-all-score"> / 100</p>
       </div>
-      <div class="right-title">Summary</div>
       <div class="verbal">
-        <div class="get-all-score"> / 100</div>
-        <div class="verbal-background"></div>
-        <div class="text-verbal">Verbal</div>
-        <div class="get-true-score">92</div>
-        <div class="image-verbal"></div>
-      </div>
-      <div class="button">
-        <div class="Countinute">Continue</div>
-        <div class="button-background"></div>
+        <img src="/assets/images/icon-verbal.svg" class="image-verbal"></img>
+        <p class="text-verbal">Verbal</p>
+        <p class="get-true-score">92</p>
+        <p class="get-all-score"> / 100</p>
       </div>
       <div class="memory">
-        <div class="text-memory">Memory</div>
-        <div class="get-all-score"> / 100</div>
-        <div class="memory-background"></div>
-        <div class="image-memory"></div>
-        <div class="get-true-score">72</div>
+        <img src="./assets/images/icon-memory.svg" class="image-memory"></img>
+        <p class="text-memory">Memory</p>
+        <p class="get-true-score">72</p>
+        <p class="get-all-score"> / 100</p>
       </div>
       <div class="visual">
-        <div class="text-visual">Visual</div>
-        <div class="get-all-score"> / 100</div>
-        <div class="visual-background"></div>
-        <div class="image-visual"></div>
-        <div class="get-true-score">61</div>
+        <img src="./assets/images/icon-visual.svg" class="image-visual"></img>
+        <p class="text-visual">Visual</p>
+        <p class="get-true-score">61</p>
+        <p class="get-all-score"> / 100</p>
       </div>
-    </div>
-    <div class="left-card">
-      <div class="Circle">
-        <div class="get-average-score">76</div>
-        <div class="all-average-score">of 100</div>
-        <div class="circle-background"></div>
-      </div>
-      <div class="circle-text">You scored higher than 65% of the people who have taken these tests.</div>
-      <div class="cricle-middle-text">Great</div>
-      <div class="circle-title">Your Result</div>
-      <div class="left-card-background"></div>
-    </div>
+      <button class="button">
+        <p class="Countinute">Continue</p>
+      </button>
+    </section>
   </div>
-  
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub"
+      target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://www.frontendmentor.io/profile/Chious">Chiou Jia Sheng</a>.
   </div>
 </body>
+
 </html>

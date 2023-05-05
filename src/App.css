@@ -44,3 +44,7 @@ p {
   font-size: 18px;
   font-weight: 500;
 }
+
+body {
+  background-color: white;
+}

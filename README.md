@@ -94,7 +94,7 @@ I found that most of structure in the right part is repeated, so I decide to get
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+This can customize the result from the google form
 
 
 ### Useful resources
@@ -107,9 +107,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Chious](https://github.com/Chious)
+- Frontend Mentor - [@Chious](https://www.frontendmentor.io/profile/Chious)
+- Twitter - [@Chious](https://twitter.com/ChiouJiaSheng)
 
 
 ## Acknowledgments
